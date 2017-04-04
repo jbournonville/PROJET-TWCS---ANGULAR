@@ -1,0 +1,54 @@
+<h3>{{clientEditModeLabel}}</h3>
+<form [formGroup]="clientForm" (ngSubmit)="onSubmit()">
+  <div class="form-group row">
+    <label for="firstName" class="col-2 col-form-label">Prénom</label>
+    <div class="col-10">
+      <input
+        formControlName="firstName"
+        class="form-control"
+        type="text"
+        value="John"
+        id="firstName"
+        required>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="lastName" class="col-2 col-form-label">Nom</label>
+    <div class="col-10">
+      <input
+        formControlName="lastName"
+        class="form-control"
+        type="text"
+        value="Doe"
+        id="lastName"
+        required>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="mail" class="col-2 col-form-label">Email</label>
+    <div class="col-10">
+      <input
+        formControlName="mail"
+        class="form-control"
+        type="email"
+        value="bootstrap@example.com"
+        id="mail"
+        required>
+    </div>
+
+  </div>
+  <div class="form-group row">
+    <label for="company" class="col-2 col-form-label">Société</label>
+    <div class="col-10">
+      <input
+        formControlName="company"
+        class="form-control"
+        type="text"
+        value="Doe&Co"
+        id="company">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="!clientForm.valid">Enregistrer</button>
+  <button type="button" class="btn btn-primary" (click)="onCancel()">Annuler</button>
+</form>
+<hr>

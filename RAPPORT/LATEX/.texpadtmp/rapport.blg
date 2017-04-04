@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/julien/Desktop/TWCS/00 - PROJET/RAPPORT/LATEX/.texpadtmp/rapport.aux
+A level-1 auxiliary file: biblio.aux
+A level-1 auxiliary file: projet.aux
+A level-1 auxiliary file: annexes.aux
+The style file: unsrt.bst
+Database file #1: ../includes/bib.bib
+I was expecting a `,' or a `}'---line 22 of file ../includes/bib.bib
+ :    
+ :    note = "[Online; accessed 25-March-2017]"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "youtube:angular4annoncement" isn't style-file defined
+--line 62 of file ../includes/bib.bib
+Warning--entry type for "ts:decorator" isn't style-file defined
+--line 78 of file ../includes/bib.bib
+Warning--entry type for "angluar:cli" isn't style-file defined
+--line 86 of file ../includes/bib.bib
+Warning--entry type for "angluarcli:doc" isn't style-file defined
+--line 94 of file ../includes/bib.bib
+Warning--empty publisher in ninja:angular
+You've used 11 entries,
+            1791 wiz_defined-function locations,
+            498 strings with 5011 characters,
+and the built_in function-call counts, 1479 in all, are:
+= -- 125
+> -- 44
+< -- 0
++ -- 22
+- -- 11
+* -- 13
+:= -- 237
+add.period$ -- 37
+call.type$ -- 11
+change.case$ -- 10
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 60
+empty$ -- 200
+format.name$ -- 11
+if$ -- 349
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 2
+newline$ -- 62
+num.names$ -- 11
+pop$ -- 63
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 36
+stack$ -- 0
+substring$ -- 0
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 11
+width$ -- 13
+write$ -- 115
+(There was 1 error message)

@@ -1,0 +1,25 @@
+\appendix
+\IMTannexe{Routage}
+
+\section{Fichier client.routing.ts}
+\label{routing-client}
+\begin{lstlisting}[style=htmlcssjs]
+import {Routes} from "@angular/router";
+import {ClientEditComponent} from "./client-edit/client-edit.component";
+
+export const CLIENT_ROUTES : Routes = [
+  {path: 'new', component: ClientEditComponent},
+  {path: ':id/edit', component: ClientEditComponent}
+];
+\end{lstlisting}
+
+
+\IMTannexe{Composant d'édition client}
+
+\section{Fichier client-edit.component.ts}
+\label{client-edit-ts}
+\lstinputlisting[style=htmlcssjs]{files/client-edit.component.ts}
+
+\section{Fichier client-edit.component.html}
+\label{client-edit-html}
+\lstinputlisting[style=htmlcssjs]{files/client-edit.component.html}

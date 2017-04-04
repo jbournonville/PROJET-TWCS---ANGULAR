@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Modèle LaTeX pour les documents IMT
+%
+%  Par Julien BOURNONVILLE
+%  Mars 2017
+%
+%  Toutes les images doivent se trouver
+%  dans un sous-dossier pictures
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,parskip,a4paper]{report}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[pdftex]{hyperref}	
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[english,francais]{babel}
+\usepackage{imt}	
+\usepackage{aeguill}
+\usepackage{times}
+\usepackage{listingsutf8}
+\usepackage{upquote}
+\usepackage{color}
+\usepackage{makeidx}
+\usepackage[style=tree,order=word,nonumberlist]{glossaries}
+\usepackage{lipsum}
+\usepackage{wrapfig}
+\makeindex
+\makeglossary
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Variables pour ce document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{Julien BOURNONVILLE}
+\title{Projet Ingénieur : ANGULAR 2}
+\contributors{M.S. Technologies du Web et Cyber-Sécurité}						
+\version{1.0}								
+\docdescription{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{configuration.tex} % fichier de configuration optionnel
+
+
+%%%% DÉBUT DOCUMENT
+\begin{document}
+
+% ne pas modifier ! imprime la première page du document
+\IMTfrontcover
+
+%% Affichage des listes et tables.
+\renewcommand{\baselinestretch}{0.9}\normalsize
+\IMTsommaire
+\listoffigures  % commenter pour ne pas avoir la liste des figures
+%\listoftables   % commenter pour ne pas avoir la liste des tables
+\lstlistoflistings % commenter pour ne pas avoir la liste des extraits de code
+\renewcommand{\baselinestretch}{1}\normalsize
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CORPS DU DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Bibliographie
+\include{biblio}
+
+%Projet
+\include{projet}
+
+
+% ANNEXES
+\include{annexes}
+
+
+% INDEX, RÉFÉRENCES et GLOSSAIRE
+%\IMTindex
+\IMTbiblio{plain-fr}{includes/bib}
+%\IMTglossary
+
+% ne pas modifier ! imprime la dernière page du document
+\IMTcoverpage
+\end{document}
+
+
+% pour avoir la l'auto-completion de la biblio mais a désactiver pour le rapport final
+\bibliography{includes/bib}

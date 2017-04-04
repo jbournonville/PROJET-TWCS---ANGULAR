@@ -1,0 +1,78 @@
+<div class="container">
+  <div class="">
+    <h3>{{productEditModeLabel}}</h3>
+    <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+      <div class="form-group row">
+        <label for="designation">Designation Produit</label>
+        <input
+          formControlName="designation"
+          class="form-control"
+          type="text"
+          value="Piggy"
+          id="designation"
+          required>
+      </div>
+      <div class="form-group row">
+        <label for="productType">Designation Produit</label>
+        <select
+          formControlName="productType"
+          class="form-control"
+          id="productType"
+          required>
+          <option value="Produit">Produit</option>
+          <option value="Service">Service</option>
+          <option value="Heures">Heures</option>
+          <option value="Jours">Jours</option>
+        </select>
+      </div>
+
+      <div class="form-group row">
+        <label for="priceExTax">Prix unitaire HT</label>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-euro" aria-hidden="true"></i></span>
+          <input
+            formControlName="priceExTax"
+            class="form-control"
+            type="number"
+            value="20"
+            id="priceExTax"
+            required>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="description">Description</label>
+        <textarea
+          type="text"
+          id="description"
+          rows="6"
+          class="form-control"
+          formControlName="description">
+      </textarea>
+      </div>
+
+      <div class="form-group row">
+        <label for="imageUrl">Lien Image</label>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-external-link" aria-hidden="true"></i></span>
+          <input
+            formControlName="imageUrl"
+            class="form-control"
+            type="text"
+            value="Piggy"
+            id="imageUrl"
+            #imageUrl>
+        </div>
+      </div>
+      <div *ngIf="imageUrl.value" class="form-group row">
+        <div class="img-container">
+          <img class="img-thumbnail mx-auto" [src]="imageUrl.value">
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary" [disabled]="!productForm.valid">Enregistrer</button>
+      <button type="button" class="btn btn-primary" (click)="onCancel()">Annuler</button>
+
+    </form>
+  </div>
+</div>

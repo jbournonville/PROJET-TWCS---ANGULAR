@@ -1,0 +1,239 @@
+		\def\imt@CLASSNAME{imt}
+		\def\imt@VERSION{1.2}
+		\def\imt@DATE{2013/06/17}
+		\def\imt@DATE@fr{17/06/2013}
+		\def\imt@AUTHOR{Charles Duchêne}
+		\NeedsTeXFormat{LaTeX2e}
+		\ProvidesClass{\imt@CLASSNAME}[\imt@DATE]
+		\RequirePackage{appendix}
+		\RequirePackage{setspace}
+		\RequirePackage{eso-pic}
+		\RequirePackage{xcolor}
+		\RequirePackage{graphicx}
+		\RequirePackage{geometry}
+		\RequirePackage{titlesec}
+		\RequirePackage{titletoc}
+		\RequirePackage{MnSymbol}
+		\RequirePackage{caption}
+		
+		\newif\if@Version \@Versionfalse
+		\DeclareOption{version}{\@Versiontrue}
+		\newif\if@Brest \@Bresttrue
+		\newif\if@Rennes \@Rennesfalse
+		\DeclareOption{Rennes}{\@Rennestrue\@Brestfalse}
+		\newif\if@Toulouse \@Toulousefalse
+		\DeclareOption{Toulouse}{\@Toulousetrue\@Brestfalse}
+		\DeclareOption*{}
+		\ProcessOptions
+		
+		% changement de police pour IMT
+		\renewcommand{\familydefault}{\sfdefault}
+		\setlength{\parskip}{1.2ex plus 0.5ex minus 0.2ex}
+		
+		
+		% couleurs
+		\definecolor{IMTvert}{RGB}{164,210,51}
+		\definecolor{IMTbleu}{RGB}{0,184,222}
+		\definecolor{IMTbleuf}{RGB}{12,35,64}
+		\definecolor{IMTnoir}{RGB}{60,60,60}
+		\definecolor{lightgrey}{RGB}{240,240,240}
+		
+		% format des titres
+		\titleformat{\chapter}{\LARGE\bfseries}{\thechapter.}{1.5em}{\uppercase}
+		\titleformat{\section}{\Large\bfseries}{\thesection.}{1em}{\uppercase}
+		\titleformat{\subsection}{\large\bfseries\scshape\color{IMTvert}}{\thesubsection}{1em}{}
+		\titleformat{\subsubsection}{\bfseries\color{IMTnoir}}{\thesubsubsection}{1em}{}
+		\titleformat{\paragraph}{\itshape\bfseries}{\theparagraph}{1em}{}
+		
+		% tabulations et style pour la table des matières
+		\titlecontents*{chapter}[0em]{\Large\bfseries}{\thecontentslabel.~\uppercase}{}{ \titlerule*[.3pc]{\tiny\textbullet} \thecontentspage\\}
+		\titlecontents*{section}[0em]{\large\bfseries}{\thecontentslabel.~\uppercase}{}{ \titlerule*[.3pc]{\tiny\textbullet} \thecontentspage\\}
+		\titlecontents*{subsection}[0em]{\normalsize\scshape\bfseries}{\thecontentslabel~}{}{ \titlerule*[.3pc]{\tiny\textbullet} \thecontentspage\\}
+		\titlecontents*{subsubsection}[0em]{\normalfont}{\thecontentslabel~}{}{ \titlerule*[.3pc]{\tiny.} \thecontentspage\\}
+		
+		% marges
+		\geometry{paper=a4paper,
+		          includeall,
+		          headheight=0cm,
+		          headsep=0.9cm,
+		          vmargin=2.1cm,
+		          hmargin=2.1cm,
+		          marginparsep=0cm,
+		          marginparwidth=0cm,
+		}
+		
+		% couleur pour les légendes
+		\DeclareCaptionFont{IMTcaption}{\color{IMTvert}}
+		\captionsetup{labelfont={IMTcaption},textfont={IMTcaption}}
+		
+		% définition de nouvelles macros pour le document
+		\def\@contributors{}
+		\newcommand{\contributors}[1]{\gdef\@contributors{#1}}
+		\def\@version{non versionné}
+		\newcommand{\version}[1]{\gdef\@version{#1}}
+		\def\@description{}
+		\newcommand{\docdescription}[1]{\gdef\@description{#1}}
+		
+		%%%% première page -> modification de maketitle %%%%
+		\renewcommand{\maketitle}{
+		 	% imprime le logo IMT sur la première de couverture
+			\AddToShipoutPicture{\unitlength=1cm
+			\put(2.1,2.1){\includegraphics[scale=1]{imt-logo}}}
+			
+			% imprime l'image de fond de la première de couverture
+			\AddToShipoutPicture{\unitlength=1cm
+			\put(0,17.708){\includegraphics{angular}}}
+			
+			% imprime la frise sur la première de couverture
+			\AddToShipoutPicture{\unitlength=1cm
+			\put(0,8.7){\includegraphics{formes}}}
+		 	
+		 	% pour supporter plusieurs auteurs, position du bas de case de texte fixe	
+			\AddToShipoutPicture{\unitlength=1cm
+			\put(2.1,14){
+				\begin{minipage}{12 cm}
+					\noindent{\scshape \@author} 
+		
+					\noindent{\scshape \today}
+		
+					\noindent{\scshape \@contributors}
+				\end{minipage}
+			}}
+			
+		% marge de 9 cm à gauche et 13.5 cm en haut
+		\newgeometry{top=18cm,left=2.1cm}
+		\thispagestyle{empty}
+		\begin{titlepage}
+		
+			\noindent{\bfseries \huge \color{IMTvert} \@title}
+			\vspace*{0.8 cm}
+	
+			\if@Version	% n'imprime la version que si l'option est spécifiée
+				\noindent Document version \@version\\
+			\fi
+			
+			\noindent{\small \@description}
+			
+		\end{titlepage}
+	
+			\restoregeometry
+			\ClearShipoutPicture
+			\clearpage
+			% ràz du compteur de page (la première ne compte pas)
+			\setcounter{page}{1}
+			% item, fait maintenant uniquement car babel redéfinit les étiquettes
+			\renewcommand{\labelitemi}{$\filledsquare$}
+		}
+		% alias \IMTfrontcover pour maketitle
+		\newcommand{\IMTfrontcover}{\maketitle}
+		
+		%%%% dernière de couverture %%%%%
+		\newcommand{\IMTcoverpage}{
+			\clearpage
+			\thispagestyle{empty}
+			% imprime le logo IMT sur la dernière de couverture
+			\AddToShipoutPicture{\unitlength=1cm
+			\put(9,2.1){\includegraphics[scale=0.8]{imt-logo}}}
+			% marge de 9 cm à gauche et 20 cm en haut
+			\newgeometry{top=20cm,left=9cm}
+			% imprime l'adresse
+			\begin{footnotesize}
+			\if@Brest
+			\noindent Technopôle Brest-Iroise\\
+			CS 83818 \\
+			29238 Brest Cedex 3\\
+			France \\
+			+33 (0)2 29 00 11 11\\
+			\fi
+			\if@Rennes
+			\noindent Campus de Rennes\\
+			2, rue de la Châtaigneraie\\
+			CS 17607 \\
+			35576 Cesson Sévigné Cedex \\
+			France \\
+			+33 (0)2 99 12 70 00\\
+			\fi
+			\if@Toulouse
+			\noindent Campus de Toulouse\\
+			10, avenue Édouard Belin\\
+			BP 44004 \\
+			31028 Toulouse Cedex 04\\
+			France \\
+			+33 (0)5 61 38 83 65\\
+			\fi
+			\textbf{\href{http://www.imt-atlantique.fr}{www.imt-atlantique.fr}}
+			\end{footnotesize}
+		}
+		
+		% modification pour que le sommaire corresponde à celui de la chartre
+		\newcommand{\IMTsommaire}{%
+		\renewcommand{\contentsname}{\centering \color{IMTvert} Sommaire}
+		\tableofcontents
+		\renewcommand*\listfigurename{\centering \color{IMTvert} Liste de figures}
+		\renewcommand*\listtablename{\centering \color{IMTvert} Liste de tableaux}
+		\renewcommand*\lstlistlistingname{\centering \color{IMTvert} Liste d'extraits de code}
+		\renewcommand\lstlistingname{Extrait de code}
+		\newpage}
+		
+		% pour un index
+		\newcommand{\IMTindexname}{Index}
+		\newcommand{\IMTindex}{%
+		% autorise de nouveau les sections dans la toc
+		\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+		\renewcommand{\indexname}{\centering\textcolor{IMTnoir}{\IMTindexname}}
+		\addtocontents{toc}{}{}
+		\addcontentsline{toc}{section}{\uppercase{\IMTindexname}}
+		\printindex
+		}
+		
+		% pour une bibliographie
+		\newcommand{\IMTbiblioname}{Références}
+		\newcommand{\IMTbiblio}[2]{%
+		\bibliographystyle{unsrt}
+		
+		% autorise de nouveau les sections dans la toc
+		\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+		\renewcommand{\refname}{\centering\textcolor{IMTnoir}{\IMTbiblioname}} % pour article
+		\renewcommand{\bibname}{\centering\textcolor{IMTnoir}{\IMTbiblioname}} % pour report et book
+		\bibliography{#2}
+		\addtocontents{toc}{}{}
+		\addcontentsline{toc}{section}{\uppercase{\IMTbiblioname}}
+		\clearpage
+		}
+		
+		% pour un glossaire
+		\newcommand{\IMTglossaryname}{Glossaire}
+		\newcommand{\IMTglossary}{%
+		% autorise de nouveau les sections dans la toc
+		\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+		\printglossary[title={\centering\textcolor{IMTnoir}{\IMTglossaryname}}]
+		\addtocontents{toc}{}{}
+		\addcontentsline{toc}{section}{\uppercase{\IMTglossaryname}}
+		\clearpage
+		}
+		
+		% pour les annexes
+		\newcounter{IMTannexecounter}
+		\setcounter{IMTannexecounter}{1}
+		\renewcommand{\appendix}{%
+			\addtocontents{toc}{}{}
+			\renewcommand{\thesection}{\Alph{section}}
+		}
+		\newcommand{\IMTannexe}[1]{%
+			\clearpage
+			\setcounter{section}{0}
+			% autorise de nouveau les sections dans la toc
+			\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+			\addcontentsline{toc}{section}{ANNEXE \theIMTannexecounter{} -- #1}
+			% empêche les sections et inférieur d'apparaître dans la toc
+			\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
+			\begin{center}
+				\begin{Large}
+					\textcolor{IMTnoir}{\textbf{Annexe \theIMTannexecounter{} -- #1}}
+				\end{Large}
+			\end{center}
+			\addtocounter{IMTannexecounter}{1}
+		}
+		% dossier des images
+		\graphicspath{{pictures/}}
+		\endinput

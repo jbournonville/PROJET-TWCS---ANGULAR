@@ -1,0 +1,33 @@
+\select@language {french}
+\contentsline {section}{\numberline {0.1}Bibliographie}{4}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}Dolor sit amet}{4}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {0.1.2}Dolor sit amet}{5}{subsection.0.1.2}
+\contentsline {subsubsection}{Consectet tempor}{5}{subsection.0.1.2}
+\contentsline {subsubsection}{Consectet tempor}{6}{subsection.0.1.2}
+\contentsline {paragraph}{Fusce Mauris}{6}{subsection.0.1.2}
+\contentsline {paragraph}{Fusce Mauris}{6}{subsection.0.1.2}
+\contentsline {paragraph}{Fusce Mauris}{6}{subsection.0.1.2}
+\contentsline {section}{\numberline {0.2}Lorem ipsum}{7}{section.0.2}
+\contentsline {subsection}{\numberline {0.2.1}Dolor sit amet}{7}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {0.2.2}Dolor sit amet}{7}{subsection.0.2.2}
+
+\setcounter {tocdepth}{2}
+\contentsline {section}{ANNEXE 1{} -- Lorem ipsum}{9}{subsection.0.2.2}
+\setcounter {tocdepth}{-1}
+\contentsline {section}{\numberline {A}Test}{9}{section.0.1}
+\setcounter {tocdepth}{2}
+\contentsline {section}{ANNEXE 2{} -- Lorem ipsum}{10}{table.caption.7}
+\setcounter {tocdepth}{-1}
+\contentsline {section}{\numberline {A}Tests annexe}{10}{section.0.1}
+\contentsline {subsection}{\numberline {A.1}Test 1}{10}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {A.2}Test 2}{10}{subsection.0.1.2}
+\setcounter {tocdepth}{2}
+
+\contentsline {section}{\uppercase {Index}}{10}{lstnumber.-1.2}
+\setcounter {tocdepth}{2}
+
+\contentsline {section}{\uppercase {R\IeC {\'e}f\IeC {\'e}rences}}{12}{chapter*.9}
+\setcounter {tocdepth}{2}
+
+\contentsline {section}{\uppercase {Glossaire}}{13}{chapter*.9}
+\contentsfinish 

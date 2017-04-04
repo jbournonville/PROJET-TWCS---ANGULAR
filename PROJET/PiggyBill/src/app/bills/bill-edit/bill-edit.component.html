@@ -1,0 +1,127 @@
+<div class="container">
+  <h3>{{billEditModeLabel}}</h3>
+  <form [formGroup]="billForm" (ngSubmit)="onSubmit()">
+    <legend *ngIf="bill.reference">Facture | {{bill.reference}}</legend>
+    <legend *ngIf="!bill.reference">Facture | (Nouv.)</legend>
+    <div class="form-group row">
+      <label for="client" class="col-2 col-form-label">Client</label>
+      <div class="col-10">
+        <select
+          formControlName="client"
+          class="form-control"
+          type="text"
+          id="client"
+          required>
+          <option *ngFor="let c of clientsList; let i = index"
+                  [value]="c"
+                  [selected]="isObjectEquals(c, bill.client)">
+            {{c.firstName}} {{c.lastName}}
+          </option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="date" class="col-2 col-form-label">Date</label>
+      <div class="col-4">
+        <input
+          formControlName="date"
+          class="form-control"
+          type="text"
+          id="date"
+          required>
+      </div>
+    </div>
+
+    <!--TODO: Ajouter le status-->
+    <!--[selected]="isObjectEquals(p, article.billProduct) ? true : null"-->
+
+    <div class="row">
+      <ul class="list-group col-12" formArrayName="products">
+        <li class="list-group-item" *ngFor="let article of billForm.controls.products.controls; let i = index">
+          <div class="form-group col-md-3" formGroupName="{{i}}">
+            <label for="product">Produit</label>
+            <p id="product">{{article.controls.product.value.designation}}</p>
+          </div>
+          <div class="form-group col-md-1" formGroupName="{{i}}">
+            <label for="unitPrice">Prix U.</label>
+            <p id="unitPrice" #price>{{article.controls.product.value.priceExTax}}</p>
+          </div>
+          <div class="form-group col-md-1" formGroupName="{{i}}">
+            <label for="quantity">Qt</label>
+            <input
+              type="number"
+              class="form-control"
+              id="quantity"
+              formControlName="quantity"
+              (change)="onChange()"
+              #quantity>
+          </div>
+          <div class="form-group col-md-2" formGroupName="{{i}}">
+            <label for="price">Price HT</label>
+            <p id="price">{{article.controls.product.value.priceExTax*quantity.value | currency:'EUR':true:'1.2-2'}}</p>
+          </div>
+          <div class="form-group col-md-1" formGroupName="{{i}}">
+            <label for="tax">TVA</label>
+            <input
+              type="number"
+              class="form-control"
+              id="tax"
+              value="20"
+              #tax>
+          </div>
+          <div class="form-group col-md-2" formGroupName="{{i}}">
+            <label for="priceTax">Price TTC</label>
+            <p id="priceTax">{{article.controls.product.value.priceExTax*quantity.value*(1+(tax.value/100)) | currency:'EUR':true:'1.2-2'}}</p>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="form-group row">
+            <div class="col-md-5">
+              <select type="text" class="form-control" #itemProduct>
+                <option *ngFor="let pro of productsList; let i = index"
+                        [value]="i"
+                >{{pro.designation}}
+                </option>
+              </select>
+            </div>
+            <div class="col-md-5"><input type="number" class="form-control" #itemQuantity></div>
+            <div class="col-md-2">
+              <button
+                type="button"
+                class="btn btn-primary" (click)="onAddItem(itemProduct.value, itemQuantity.value)">+
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </form>
+
+  <hr>
+
+  <div class="row d-flex justify-content-end">
+    <div class="col-md-4">
+      <table>
+        <tbody>
+        <tr>
+          <th scope="row">Total HT</th>
+          <td>{{totalPrice | currency:'EUR':true:'1.2-2'}}</td>
+        </tr>
+        <tr>
+          <th scope="row">TVA</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">Total TTC</th>
+          <td></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+
+

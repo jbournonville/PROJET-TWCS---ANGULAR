@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{wiki:Single-page_application}
+Wikipedia.
+\newblock {Single-page application} --- {W}ikipedia{,} the free encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Single-page%20application&oldid=767035182},
+  2017.
+\newblock [Online; accessed 15-March-2017].
+
+\bibitem{github:angular2}
+Google.
+\newblock {Angular Release Schedule}.
+\newblock
+  \url{https://github.com/angular/angular/blob/master/docs/RELEASE_SCHEDULE.md},
+  2017.
+
+\bibitem{ninja:angular}
+Ninja-Squad.
+\newblock {\em Deviens un Ninja avec Angular}.
+\newblock 2017.
+\newblock Ebook version 1.5.
+
+\bibitem{wiki:TypeScript}
+Wikipedia.
+\newblock {TypeScript} --- {W}ikipedia{,} the free encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=TypeScript&oldid=770407028},
+  2017.
+\newblock [Online; accessed 16-March-2017].
+
+\bibitem{grafikart:TypeScript}
+Grafikart.
+\newblock Typescrpit.
+\newblock \url{https://www.grafikart.fr/tutoriels/javascript/typescript-781},
+  2016.
+\newblock [Online; accessed 16-March-2017].
+
+\bibitem{ts:decorator}
+Microsoft.
+\newblock Typescript handbook - decorators.
+\newblock \url{https://www.typescriptlang.org/docs/handbook/decorators.html}.
+
+\bibitem{angular:doc}
+Google.
+\newblock {Angular Docs}.
+\newblock \url{https://angular.io/docs/ts/latest/}, 2017.
+
+\bibitem{angluar:cli}
+Google.
+\newblock Angular cli.
+\newblock \url{https://cli.angular.io/}.
+
+\bibitem{angluarcli:doc}
+Google.
+\newblock Angular cli documentation.
+\newblock \url{https://github.com/angular/angular-cli/wiki}.
+
+\bibitem{youtube:angular4annoncement}
+NG~BE.
+\newblock Igor minar - opening keynote - version 4 announcement - ng-be 2016.
+\newblock \url{https://youtu.be/aJIMoLgqU_o}.
+
+\bibitem{github:jsPDF}
+MrRio.
+\newblock {GitHub Repo de jsPDF}.
+\newblock \url{https://github.com/MrRio/jsPDF}, 2017.
+
+\end{thebibliography}

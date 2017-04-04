@@ -1,0 +1,1149 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdftex 2017.3.8)  8 MAR 2017 18:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**imt.sty
+(./imt.sty
+./imt.sty:6: Undefined control sequence.
+l.6 \NeedsTeXFormat
+                   {LaTeX2e}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:7: Undefined control sequence.
+l.7 \ProvidesClass
+                  {\imt@CLASSNAME}[\imt@DATE]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:7: Use of \imt doesn't match its definition.
+l.7 \ProvidesClass{\imt@C
+                         LASSNAME}[\imt@DATE]
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./imt.sty:7: Use of \imt doesn't match its definition.
+l.7 \ProvidesClass{\imt@CLASSNAME}[\imt@D
+                                         ATE]
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./imt.sty:8: Undefined control sequence.
+l.8 \RequirePackage
+                   {appendix}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:9: Undefined control sequence.
+l.9 \RequirePackage
+                   {setspace}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:10: Undefined control sequence.
+l.10 \RequirePackage
+                    {eso-pic}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:11: Undefined control sequence.
+l.11 \RequirePackage
+                    {xcolor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:12: Undefined control sequence.
+l.12 \RequirePackage
+                    {graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:13: Undefined control sequence.
+l.13 \RequirePackage
+                    {geometry}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:14: Undefined control sequence.
+l.14 \RequirePackage
+                    {titlesec}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:15: Undefined control sequence.
+l.15 \RequirePackage
+                    {titletoc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:16: Undefined control sequence.
+l.16 \RequirePackage
+                    {MnSymbol}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:17: Undefined control sequence.
+l.17 \RequirePackage
+                    {caption}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:19: Undefined control sequence.
+l.19 \newif\if@Version \@
+                         Versionfalse
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:20: Undefined control sequence.
+l.20 \DeclareOption
+                   {version}{\@Versiontrue}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:20: Undefined control sequence.
+l.20 \DeclareOption{version}{\@
+                               Versiontrue}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:21: Undefined control sequence.
+l.21 \newif\if@Brest \@
+                       Bresttrue
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:22: Undefined control sequence.
+l.22 \newif\if@Rennes \@
+                        Rennesfalse
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:23: Undefined control sequence.
+l.23 \DeclareOption
+                   {Rennes}{\@Rennestrue\@Brestfalse}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:23: Undefined control sequence.
+l.23 \DeclareOption{Rennes}{\@
+                              Rennestrue\@Brestfalse}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:23: Undefined control sequence.
+l.23 \DeclareOption{Rennes}{\@Rennestrue\@
+                                          Brestfalse}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:24: Undefined control sequence.
+l.24 \newif\if@Toulouse \@
+                          Toulousefalse
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:25: Undefined control sequence.
+l.25 \DeclareOption
+                   {Toulouse}{\@Toulousetrue\@Brestfalse}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:25: Undefined control sequence.
+l.25 \DeclareOption{Toulouse}{\@
+                                Toulousetrue\@Brestfalse}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:25: Undefined control sequence.
+l.25 \DeclareOption{Toulouse}{\@Toulousetrue\@
+                                              Brestfalse}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:26: Undefined control sequence.
+l.26 \DeclareOption
+                   *{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:27: Undefined control sequence.
+l.27 \ProcessOptions
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:30: Undefined control sequence.
+l.30 \renewcommand
+                  {\familydefault}{\sfdefault}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:30: Undefined control sequence.
+l.30 \renewcommand{\familydefault
+                                 }{\sfdefault}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:30: Undefined control sequence.
+l.30 \renewcommand{\familydefault}{\sfdefault
+                                             }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:33: Undefined control sequence.
+l.33 \definecolor
+                 {IMTvert}{RGB}{164,210,51}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:34: Undefined control sequence.
+l.34 \definecolor
+                 {IMTbleu}{RGB}{0,184,222}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:35: Undefined control sequence.
+l.35 \definecolor
+                 {IMTbleuf}{RGB}{12,35,64}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:36: Undefined control sequence.
+l.36 \definecolor
+                 {IMTnoir}{RGB}{60,60,60}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:39: Undefined control sequence.
+l.39 \titleformat
+                 {\section}{\huge\bfseries}{\thesection.}{1em}{\uppercase}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:39: Undefined control sequence.
+l.39 \titleformat{\section
+                          }{\huge\bfseries}{\thesection.}{1em}{\uppercase}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:39: Undefined control sequence.
+l.39 \titleformat{\section}{\huge
+                                 \bfseries}{\thesection.}{1em}{\uppercase}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:39: Undefined control sequence.
+l.39 \titleformat{\section}{\huge\bfseries
+                                          }{\thesection.}{1em}{\uppercase}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:39: Undefined control sequence.
+l.39 ...rmat{\section}{\huge\bfseries}{\thesection
+                                                  .}{1em}{\uppercase}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:39: Missing { inserted.
+<to be read again> 
+                   }
+l.39 ...e\bfseries}{\thesection.}{1em}{\uppercase}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./imt.sty:40: Undefined control sequence.
+l.40 \titleformat
+                 {\subsection}{\large\bfseries\scshape\color{IMTvert}}{\thes...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:40: Undefined control sequence.
+l.40 \titleformat{\subsection
+                             }{\large\bfseries\scshape\color{IMTvert}}{\thes...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:40: Undefined control sequence.
+l.40 \titleformat{\subsection}{\large
+                                     \bfseries\scshape\color{IMTvert}}{\thes...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:40: Undefined control sequence.
+l.40 \titleformat{\subsection}{\large\bfseries
+                                              \scshape\color{IMTvert}}{\thes...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:40: Undefined control sequence.
+l.40 ...ormat{\subsection}{\large\bfseries\scshape
+                                                  \color{IMTvert}}{\thesubse...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:40: Undefined control sequence.
+l.40 ...\subsection}{\large\bfseries\scshape\color
+                                                  {IMTvert}}{\thesubsection}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:40: Undefined control sequence.
+l.40 ...ies\scshape\color{IMTvert}}{\thesubsection
+                                                  }{1em}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:41: Undefined control sequence.
+l.41 \titleformat
+                 {\subsubsection}{\bfseries\color{IMTnoir}}{\thesubsubsectio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:41: Undefined control sequence.
+l.41 \titleformat{\subsubsection
+                                }{\bfseries\color{IMTnoir}}{\thesubsubsectio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:41: Undefined control sequence.
+l.41 \titleformat{\subsubsection}{\bfseries
+                                           \color{IMTnoir}}{\thesubsubsectio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:41: Undefined control sequence.
+l.41 \titleformat{\subsubsection}{\bfseries\color
+                                                 {IMTnoir}}{\thesubsubsectio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:41: Undefined control sequence.
+l.41 ...bfseries\color{IMTnoir}}{\thesubsubsection
+                                                  }{1em}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:42: Undefined control sequence.
+l.42 \titleformat
+                 {\paragraph}{\itshape\bfseries}{}{}{\\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:42: Undefined control sequence.
+l.42 \titleformat{\paragraph
+                            }{\itshape\bfseries}{}{}{\\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:42: Undefined control sequence.
+l.42 \titleformat{\paragraph}{\itshape
+                                      \bfseries}{}{}{\\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:42: Undefined control sequence.
+l.42 \titleformat{\paragraph}{\itshape\bfseries
+                                               }{}{}{\\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:42: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.42 ...mat{\paragraph}{\itshape\bfseries}{}{}{\\}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./imt.sty:42: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.42 ...mat{\paragraph}{\itshape\bfseries}{}{}{\\}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./imt.sty:45: Undefined control sequence.
+l.45 \titlecontents
+                   *{section}[0em]{\large\bfseries}{\thecontentslabel.~\uppe...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:45: Undefined control sequence.
+l.45 \titlecontents*{section}[0em]{\large
+                                         \bfseries}{\thecontentslabel.~\uppe...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:45: Undefined control sequence.
+l.45 \titlecontents*{section}[0em]{\large\bfseries
+                                                  }{\thecontentslabel.~\uppe...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:45: Undefined control sequence.
+l.45 ...n}[0em]{\large\bfseries}{\thecontentslabel
+                                                  .~\uppercase}{}{ \titlerul...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:45: Missing { inserted.
+<to be read again> 
+                   }
+l.45 ...e\bfseries}{\thecontentslabel.~\uppercase}
+                                                  {}{ \titlerule*[.3pc]{\tin...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./imt.sty:45: Undefined control sequence.
+l.45 ...hecontentslabel.~\uppercase}{}{ \titlerule
+                                                  *[.3pc]{\tiny\textbullet} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:45: Undefined control sequence.
+l.45 ...el.~\uppercase}{}{ \titlerule*[.3pc]{\tiny
+                                                  \textbullet} \thecontentsp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:45: Undefined control sequence.
+l.45 ...ase}{}{ \titlerule*[.3pc]{\tiny\textbullet
+                                                  } \thecontentspage\\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:45: Undefined control sequence.
+l.45 ...*[.3pc]{\tiny\textbullet} \thecontentspage
+                                                  \\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:45: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.45 ...3pc]{\tiny\textbullet} \thecontentspage\\}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./imt.sty:45: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.45 ...3pc]{\tiny\textbullet} \thecontentspage\\}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./imt.sty:46: Undefined control sequence.
+l.46 \titlecontents
+                   *{subsection}[0em]{\normalsize\scshape\bfseries}{\thecont...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:46: Undefined control sequence.
+l.46 \titlecontents*{subsection}[0em]{\normalsize
+                                                 \scshape\bfseries}{\thecont...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:46: Undefined control sequence.
+l.46 ...ents*{subsection}[0em]{\normalsize\scshape
+                                                  \bfseries}{\thecontentslab...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:46: Undefined control sequence.
+l.46 ...section}[0em]{\normalsize\scshape\bfseries
+                                                  }{\thecontentslabel~}{}{ \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:46: Undefined control sequence.
+l.46 ...alsize\scshape\bfseries}{\thecontentslabel
+                                                  ~}{}{ \titlerule*[.3pc]{\t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:46: Undefined control sequence.
+l.46 ...fseries}{\thecontentslabel~}{}{ \titlerule
+                                                  *[.3pc]{\tiny\textbullet} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:46: Undefined control sequence.
+l.46 ...contentslabel~}{}{ \titlerule*[.3pc]{\tiny
+                                                  \textbullet} \thecontentsp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:46: Undefined control sequence.
+l.46 ...el~}{}{ \titlerule*[.3pc]{\tiny\textbullet
+                                                  } \thecontentspage\\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:46: Undefined control sequence.
+l.46 ...*[.3pc]{\tiny\textbullet} \thecontentspage
+                                                  \\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:46: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.46 ...3pc]{\tiny\textbullet} \thecontentspage\\}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./imt.sty:46: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.46 ...3pc]{\tiny\textbullet} \thecontentspage\\}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./imt.sty:47: Undefined control sequence.
+l.47 \titlecontents
+                   *{subsubsection}[0em]{\normalfont}{\thecontentslabel~}{}{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:47: Undefined control sequence.
+l.47 ...econtents*{subsubsection}[0em]{\normalfont
+                                                  }{\thecontentslabel~}{}{ \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:47: Undefined control sequence.
+l.47 ...ction}[0em]{\normalfont}{\thecontentslabel
+                                                  ~}{}{ \titlerule*[.3pc]{\t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:47: Undefined control sequence.
+l.47 ...malfont}{\thecontentslabel~}{}{ \titlerule
+                                                  *[.3pc]{\tiny.} \theconten...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:47: Undefined control sequence.
+l.47 ...contentslabel~}{}{ \titlerule*[.3pc]{\tiny
+                                                  .} \thecontentspage\\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:47: Undefined control sequence.
+l.47 ...\titlerule*[.3pc]{\tiny.} \thecontentspage
+                                                  \\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:47: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.47 ...tlerule*[.3pc]{\tiny.} \thecontentspage\\}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./imt.sty:47: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.47 ...tlerule*[.3pc]{\tiny.} \thecontentspage\\}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./imt.sty:50: Undefined control sequence.
+l.50 \geometry
+              {paper=a4paper,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (3.99611pt too wide) in paragraph at lines 50--59
+[]\tenrm paper=a4paper, in-cludeall, head-height=0cm, head-sep=0.9cm, vmar-gin=2.1cm, hmar-gin=2.1cm, margin-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm p
+.\tenrm a
+.\tenrm p
+.\kern0.27779
+.etc.
+
+./imt.sty:61: Undefined control sequence.
+l.61 \DeclareCaptionFont
+                        {IMTcaption}{\color{IMTvert}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:61: Undefined control sequence.
+l.61 \DeclareCaptionFont{IMTcaption}{\color
+                                           {IMTvert}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:62: Undefined control sequence.
+l.62 \captionsetup
+                  {labelfont={IMTcaption},textfont={IMTcaption}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:66: Undefined control sequence.
+l.66 \newcommand
+                {\contributors}[1]{\gdef\@contributors{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:66: Undefined control sequence.
+l.66 \newcommand{\contributors
+                              }[1]{\gdef\@contributors{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:66: Illegal parameter number in definition of \@.
+<to be read again> 
+                   1
+l.66 ...d{\contributors}[1]{\gdef\@contributors{#1
+                                                  }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./imt.sty:68: Undefined control sequence.
+l.68 \newcommand
+                {\version}[1]{\gdef\@version{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:68: Undefined control sequence.
+l.68 \newcommand{\version
+                         }[1]{\gdef\@version{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:68: Illegal parameter number in definition of \@.
+<to be read again> 
+                   1
+l.68 \newcommand{\version}[1]{\gdef\@version{#1
+                                               }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./imt.sty:70: Undefined control sequence.
+l.70 \newcommand
+                {\docdescription}[1]{\gdef\@description{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:70: Undefined control sequence.
+l.70 \newcommand{\docdescription
+                                }[1]{\gdef\@description{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:70: Illegal parameter number in definition of \@.
+<to be read again> 
+                   1
+l.70 ...{\docdescription}[1]{\gdef\@description{#1
+                                                  }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./imt.sty:73: Undefined control sequence.
+l.73 \renewcommand
+                  {\maketitle}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:73: Undefined control sequence.
+l.73 \renewcommand{\maketitle
+                             }{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:75: Undefined control sequence.
+l.75 	\AddToShipoutPicture
+                          {\unitlength=1cm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:75: Undefined control sequence.
+l.75 	\AddToShipoutPicture{\unitlength
+                                      =1cm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:76: Undefined control sequence.
+l.76 	\put
+          (2.1,2.1){\includegraphics[scale=1]{imt-logo}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:76: Undefined control sequence.
+l.76 	\put(2.1,2.1){\includegraphics
+                                    [scale=1]{imt-logo}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:78: Undefined control sequence.
+l.78 	\AddToShipoutPicture
+                          {\unitlength=1cm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:78: Undefined control sequence.
+l.78 	\AddToShipoutPicture{\unitlength
+                                      =1cm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:79: Undefined control sequence.
+l.79 	\put
+          (0,8.7){\includegraphics{formes}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:79: Undefined control sequence.
+l.79 	\put(0,8.7){\includegraphics
+                                  {formes}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:81: Undefined control sequence.
+l.81 	\AddToShipoutPicture
+                          {\unitlength=1cm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:81: Undefined control sequence.
+l.81 	\AddToShipoutPicture{\unitlength
+                                      =1cm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:82: Undefined control sequence.
+l.82 	\put
+          (2.1,14){
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:83: Undefined control sequence.
+l.83 		\begin
+             {minipage}{10 cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:84: Undefined control sequence.
+l.84 			\begin
+              {spacing}{1}	% première page : interligne de 1,5
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:85: Use of \@ doesn't match its definition.
+\t ... \font }\the \textfont 1\accent "7F\next #1}
+                                                  
+l.85 				\noindent{\t \@
+                        author
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./imt.sty:87: Undefined control sequence.
+l.87 				\noindent\today
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./imt.sty:89: Use of \@ doesn't match its definition.
+l.89 				\noindent\@c
+                     ontributors
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] )
+(\end occurred inside a group at level 7)
+
+### simple group (level 7) entered at line 85 ({)
+### simple group (level 6) entered at line 85 ({)
+### simple group (level 5) entered at line 82 ({)
+### simple group (level 4) entered at line 81 ({)
+### simple group (level 3) entered at line 73 ({)
+### simple group (level 2) entered at line 45 ({)
+### simple group (level 1) entered at line 39 ({)
+### bottom level</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on "/Users/julien/Desktop/TWCS/99_DIVERS/LATEX/Modèle IMTA/.texpadtmp/imt.pdf" (1 page, 29019 bytes).
+PDF statistics:
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
