@@ -1,4 +1,4 @@
-import {Component, OnInit, Output, OnChanges} from '@angular/core';
+import {Component, OnInit, Output} from '@angular/core';
 import {Subscription} from "rxjs";
 import {FormGroup, FormBuilder, Validators, FormArray, FormControl} from "@angular/forms";
 import {Bill} from "../bill";
@@ -16,7 +16,7 @@ import {falseIfMissing} from "protractor/built/util";
   selector: 'app-bill-edit',
   templateUrl: './bill-edit.component.html'
 })
-export class BillEditComponent implements OnChanges {
+export class BillEditComponent implements OnInit {
 
 
   private subscription: Subscription;
