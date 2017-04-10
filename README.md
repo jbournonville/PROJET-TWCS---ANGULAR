@@ -10,10 +10,17 @@ Dans un terminal utiliser la commande :
 npm install -g @angular/cli
 ```
 
-
 ## Fichiers sources
 Les fichiers se trouve dans le dossier PROJET/PiggyBill
 
+### Installation de l'application
+Avant de pouvoir lancer l'application, il faut se rendre de le dossier PiggyBill et lancer la commande :
+
+```{r, engine='bash', count_lines}
+npm install
+```
+
+### Lancement de l'application
 Pour démarrer le server en mode développement se rendre dans le dossier avec le terminal et utiliser la commande :
 
 ```{r, engine='bash', count_lines}
